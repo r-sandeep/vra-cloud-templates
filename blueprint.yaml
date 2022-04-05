@@ -1,8 +1,8 @@
 formatVersion: 1
 name: "sandeep-test-template"
-version: 3
+version: 4
 inputs:
-  my_input:
+  my-input:
     type: string
 resources:
   Cloud_AWS_EC2_Instance-1:
