@@ -1,0 +1,11 @@
+formatVersion: 1
+name: "sandeep-test-template"
+version: 1
+inputs: {}
+resources:
+  Cloud_AWS_EC2_Instance_1:
+    type: Cloud.AWS.EC2.Instance
+    properties:
+      image: ubuntu
+      flavor: small
+      initialPowerOn: false
