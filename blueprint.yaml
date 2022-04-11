@@ -1,6 +1,6 @@
 formatVersion: 1
 name: "sandeep-test-template"
-version: 5
+version: 6
 inputs:
   my-input:
     type: string
@@ -10,6 +10,6 @@ resources:
   Cloud_AWS_EC2_Instance-1:
     type: Cloud.AWS.EC2.Instance
     properties:
-      image: ubuntu
+      image: ${input.my-input}
       flavor: small
       initialPowerOn: false
