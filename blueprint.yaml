@@ -6,6 +6,8 @@ inputs:
     type: string
   another-input:
     type: string
+  addSomethig:
+    type: string
 resources:
   Cloud_AWS_EC2_Instance-1:
     type: Cloud.AWS.EC2.Instance
