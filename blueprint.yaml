@@ -1,6 +1,6 @@
-formatVersion: 2
+formatVersion: 1
 name: "sandeep-test-template"
-version: 19
+version: 20
 inputs:
   my-input:
     type: string
